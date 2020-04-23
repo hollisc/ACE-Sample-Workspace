@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<restapiDescriptor xmlns="http://com.ibm.etools.mft.descriptor.restapi" xmlns:ns2="http://com.ibm.etools.mft.descriptor.base" definitionType="swagger_20" definitionFile="inventory_api.json" implementation="gen/inventory_asuh.msgflow" https="false">
+    <operations>
+        <operation name="getInventoryUsingGET" implementation="getInventoryUsingGET.subflow"/>
+    </operations>
+    <errorHandlers/>
+</restapiDescriptor>
